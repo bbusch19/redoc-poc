@@ -7,6 +7,20 @@
   pointer-events: none;
 }
 
+label[role='menuitem'] {
+  font-weight: 600;
+}
+
+label[role='menuitem'].active {
+  font-weight: bold;
+  color: #1c2e36;
+}
+
+ul ul label[role='menuitem'].active {
+  font-weight: 500;
+  color: #165fcf;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
